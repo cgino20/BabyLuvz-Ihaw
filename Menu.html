@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="description" content="A healthy, clean and delicious street foods is now available near you! A variety of foods that will satisfy your cravings everyday. BabyLuvz Ihaw at your service!">
+        <link rel="stylesheet" href="CSS/Style.css" type="text/css">
+        <link rel="stylesheet" href="CSS/all.css"text/css">
+        <title>BabyLuvz | Home</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="company-logo">
+                <a href="Index.html">
+                    <img src="Photos/Logo.png" alt="Company Logo">
+                </a>
+            </div>
+            <nav>
+                <div class="content">
+                    <ul class="main-navigation flex">
+                        <li><a href="Carts.html">Carts</a></li>
+                        <li class="tablet-view disappear"><a href="Index.html">Home</a></li>
+                        <li class="phone-view"><i class="fas fa-grip-lines" onclick="subMenu()"></i></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="phone-view" id="sub-navigation">
+                <div class="content about flex">
+                    <a href="#" class="about-article">About</a>
+                    <i class="fas fa-times" id="sub-about-button" onclick="subAbout()"></i>
+                </div>
+                <article id="sub-about">
+                    <div class="content">
+                        <p>BabyLuvz Ihaw is a street food service that serves a healthy, clean, and delicious street foods along Gumamela Street. BabyLuvz Ihaw promised to deliver a better cutomer service and the cleanliness of the foods we serve and the surrounding of the store.</p>
+        
+                        <h4 class="food-group">Our Foods</h4>
+                        <p>We serve a variety of tasty street foods yet healthy ones like Chicken Intestine, Kwek-kwek, Fishballs, kikiam, Chicken Inasal, Pork Barbeque, Hotdog, Squidballs, Calamares, Beverages, and many more. We also serve meals and miryenda for everyone.</p>
+                    </div>
+                </article>
+                <div class="content">
+                    <ul>
+                        <li><a href="Index.html">Home</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <aside id="menu-page" class="flex">
+            <div class="company-logo tablet-view">
+                <a href="Index.html">
+                    <img src="Photos/Logo.png" alt="Company Logo">
+                </a>
+            </div>
+            <div class="positioning flex mobile-view" onclick="menuLists()">
+                <h4>Menu List</h4>
+                <i class="fas fa-arrow-right"></i>
+            </div>
+            <div id="menu-lists" class="flex">
+                <div class="positioning tablet-view">
+                    <h4>Menu List</h4>
+                </div>
+                <ul>
+                    <a href="#chicken-barbecue"><li>Chicken Barbecue</li></a>
+                    <a href="#chicken-feet"><li>Chicken Feet</li></a>
+                    <a href="#chicken-gizzard"><li>Chicken Gizzard</li></a>
+                    <a href="#chicken-intestine"><li>Chicken Intestine</li></a>
+                    <a href="#chicken-liver"><li>Chicken Liver</li></a>
+                    <a href="#grilled-blood"><li>Grilled Blood</li></a>
+                    <a href="#hotdog-barbecue"><li>Hotdog Barbecue</li></a>
+                    <a href="#pork-barbecue"><li>Pork Barbecue</li></a>
+                    <a href="#pork-ears-barbecue"><li>Pork Ears Barbecue</li></a>
+                    <a href="#pork-intestine-barbecue"><li>Pork Intestine BBQ</li></a>
+                </ul>
+            </div>
+        </aside>
+
+        <main id="menu">
+            <section>
+                <div class="positioning flex">
+                    <h3>Our Menu</h3>
+                </div>
+                <div id="menu-container">
+                    <div id="chicken-barbecue" class="menu">
+                        <div class="img-container">
+                            <div id="chicken-barbecue-img" class="menu-img">
+
+                            </div>
+                        </div>
+                        <div class="tablet-view disappear">
+                            <div class="content">
+                                <div class="price-table">
+                                    <table class="flex">
+                                        <tr>
+                                            <th class="align-right">Product</th>
+                                            <th class="align-center">Quantity</th>
+                                            <th class="align-left">Price</th>
+                                        </tr>
+                                        <tr class="solo">
+                                            <td class="align-right">Solo</td>
+                                            <td class="align-center">Good for 1</td>
+                                            <td class="align-left">P85.00</td>
+                                        </tr>
+                                        <tr class="couple">
+                                            <td class="align-right">Couple</td>
+                                            <td class="align-center">Good for 2</td>
+                                            <td class="align-left">P140.00</td>
+                                        </tr>
+                                        <tr class="kaibigan">
+                                            <td class="align-right">Kaibigan</td>
+                                            <td class="align-center">Good for 4</td>
+                                            <td class="align-left">P560.00</td>
+                                        </tr>
+                                        <tr class="barkada">
+                                            <td class="align-right">Barkada</td>
+                                            <td class="align-center">Good for 10</td>
+                                            <td class="align-left">P1,400.00</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="content">
+                                <div class="positioning">
+                                    <h4>Chicken Barbecue</h4>
+                                </div>
+                                <article>
+                                    <p><strong>Chicken barbecue</strong> consists of chicken parts or entire <strong>chickens that are barbecued, grilled or smoked</strong>. There are many global and regional <strong>preparation techniques and cooking styles</strong>. Chicken barbecue is often <strong>seasoned or coated in a spice rub, barbecue sauce, or both</strong>.</p>
+    
+                                    <p class="mobile-view">Below is the list of our <strong>available <em>chicken barbecue</em></strong> that we served to our customers.</p>
+                                </article>
+                                <div class="price-table mobile-view">
+                                    <table class="flex">
+                                        <tr>
+                                            <th class="align-right">Product</th>
+                                            <th class="align-center">Quantity</th>
+                                            <th class="align-left">Price</th>
+                                        </tr>
+                                        <tr class="solo">
+                                            <td class="align-right">Solo</td>
+                                            <td class="align-center">Good for 1</td>
+                                            <td class="align-left">P85.00</td>
+                                        </tr>
+                                        <tr class="couple">
+                                            <td class="align-right">Couple</td>
+                                            <td class="align-center">Good for 2</td>
+                                            <td class="align-left">P140.00</td>
+                                        </tr>
+                                        <tr class="kaibigan">
+                                            <td class="align-right">Kaibigan</td>
+                                            <td class="align-center">Good for 4</td>
+                                            <td class="align-left">P560.00</td>
+                                        </tr>
+                                        <tr class="barkada">
+                                            <td class="align-right">Barkada</td>
+                                            <td class="align-center">Good for 10</td>
+                                            <td class="align-left">P1,400.00</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="positioning">
+                        <hr>
+                    </div>
+                    <div id="chicken-feet" class="menu">
+                        <div class="img-container">
+                            <div id="chicken-feet-img" class="menu-img">
+
+                            </div>
+                        </div>
+                        <div class="tablet-view disappear">
+                            <div class="content">
+                                <div class="price-table">
+                                    <table class="flex">
+                                        <tr>
+                                            <th class="align-right">Product</th>
+                                            <th class="align-center">Quantity</th>
+                                            <th class="align-left">Price</th>
+                                        </tr>
+                                        <tr class="solo">
+                                            <td class="align-right">Solo</td>
+                                            <td class="align-center">Good for 1</td>
+                                            <td class="align-left">P50.00</td>
+                                        </tr>
+                                        <tr class="couple">
+                                            <td class="align-right">Couple</td>
+                                            <td class="align-center">Good for 2</td>
+                                            <td class="align-left">P80.00</td>
+                                        </tr>
+                                        <tr class="kaibigan">
+                                            <td class="align-right">Kaibigan</td>
+                                            <td class="align-center">Good for 4</td>
+                                            <td class="align-left">P320.00</td>
+                                        </tr>
+                                        <tr class="barkada">
+                                            <td class="align-right">Barkada</td>
+                                            <td class="align-center">Good for 10</td>
+                                            <td class="align-left">P800.00</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="content">
+                                <div class="positioning">
+                                    <h4>Chicken Feet - Adidas</h4>
+                                </div>
+                                <article>
+                                    <p><strong>Chicken feet</strong> are marinated in a <strong>mixture of calamansi, spices and brown sugar</strong> before being <em>grilled</em>. A <strong>popular staple in Philippine street food</strong>, chicken feet are commonly known as "<em>adidas</em>" (named after the <em>athletic shoe brand <strong>Adidas</strong></em>). <strong>Chicken feet is also an ingredient in Philippine adobo</strong>.</p>
+    
+                                    <p class="mobile-view">Below is the list of our <strong>available <em>chicken feet</em></strong> that we served to our customers.</p>
+                                </article>
+                                <div class="price-table mobile-view">
+                                    <table class="flex">
+                                        <tr>
+                                            <th class="align-right">Product</th>
+                                            <th class="align-center">Quantity</th>
+                                            <th class="align-left">Price</th>
+                                        </tr>
+                                        <tr class="solo">
+                                            <td class="align-right">Solo</td>
+                                            <td class="align-center">Good for 1</td>
+                                            <td class="align-left">P50.00</td>
+                                        </tr>
+                                        <tr class="couple">
+                                            <td class="align-right">Couple</td>
+                                            <td class="align-center">Good for 2</td>
+                                            <td class="align-left">P80.00</td>
+                                        </tr>
+                                        <tr class="kaibigan">
+                                            <td class="align-right">Kaibigan</td>
+                                            <td class="align-center">Good for 4</td>
+                                            <td class="align-left">P320.00</td>
+                                        </tr>
+                                        <tr class="barkada">
+                                            <td class="align-right">Barkada</td>
+                                            <td class="align-center">Good for 10</td>
+                                            <td class="align-left">P800.00</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="positioning">
+                        <hr>
+                    </div>
+                    <div id="chicken-gizzard" class="menu">
+                        <div class="img-container">
+                            <div id="chicken-gizzard-img" class="menu-img">
+
+                            </div>
+                        </div>
+                        <div class="tablet-view disappear">
+                            <div class="content">
+                                <div class="price-table">
+                                    <table class="flex">
+                                        <tr>
+                                            <th class="align-right">Product</th>
+                                            <th class="align-center">Quantity</th>
+                                            <th class="align-left">Price</th>
+                                        </tr>
+                                        <tr class="solo">
+                                            <td class="align-right">Solo</td>
+                                            <td class="align-center">Good for 1</td>
+                                            <td class="align-left">P50.00</td>
+                                        </tr>
+                                        <tr class="couple">
+                                            <td class="align-right">Couple</td>
+                                            <td class="align-center">Good for 2</td>
+                                            <td class="align-left">P80.00</td>
+                                        </tr>
+                                        <tr class="kaibigan">
+                                            <td class="align-right">Kaibigan</td>
+                                            <td class="align-center">Good for 4</td>
+                                            <td class="align-left">P320.00</td>
+                                        </tr>
+                                        <tr class="barkada">
+                                            <td class="align-right">Barkada</td>
+                                            <td class="align-center">Good for 10</td>
+                                            <td class="align-left">P800.00</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="content">
+                                <div class="positioning">
+                                    <h4>Chicken Gizzard - Balunbalunan</h4>
+                                </div>
+                                <article>
+                                    <p><strong>Balon-balonan (Gizzard) Barbecue</strong>. <em>Barbecued balon-balonan ng manok, or chicken gizzards</em>, is a <strong>popular street food in the Philippines</strong>. Along with <em>barbecued chicken feet, pork ears and isaw (intestines)</em>, it is a <strong>favorite <em>finger food</em></strong> that <strong>goes well with beer</strong>.</p>
+    
+                                    <p class="mobile-view">Below is the list of our <strong>available <em>chicken gizzard</em></strong> that we served to our customers.</p>
+                                </article>
+                                <div class="price-table mobile-view">
+                                    <table class="flex">
+                                        <tr>
+                                            <th class="align-right">Product</th>
+                                            <th class="align-center">Quantity</th>
+                                            <th class="align-left">Price</th>
+                                        </tr>
+                                        <tr class="solo">
+                                            <td class="align-right">Solo</td>
+                                            <td class="align-center">Good for 1</td>
+                                            <td class="align-left">P50.00</td>
+                                        </tr>
+                                        <tr class="couple">
+                                            <td class="align-right">Couple</td>
+                                            <td class="align-center">Good for 2</td>
+                                            <td class="align-left">P80.00</td>
+                                        </tr>
+                                        <tr class="kaibigan">
+                                            <td class="align-right">Kaibigan</td>
+                                            <td class="align-center">Good for 4</td>
+                                            <td class="align-left">P320.00</td>
+                                        </tr>
+                                        <tr class="barkada">
+                                            <td class="align-right">Barkada</td>
+                                            <td class="align-center">Good for 10</td>
+                                            <td class="align-left">P800.00</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="positioning">
+                        <hr>
+                    </div>
+                    <div id="chicken-intestine" class="menu">
+                        <div class="img-container">
+                            <div id="chicken-intestine-img" class="menu-img">
+
+                            </div>
+                        </div>
+                        <div class="tablet-view disappear">
+                            <div class="content">
+                                <div class="price-table">
+                                    <table class="flex">
+                                        <tr>
+                                            <th class="align-right">Product</th>
+                                            <th class="align-center">Quantity</th>
+                                            <th class="align-left">Price</th>
+                                        </tr>
+                                        <tr class="solo">
+                                            <td class="align-right">Solo</td>
+                                            <td class="align-center">Good for 1</td>
+                                            <td class="align-left">P50.00</td>
+                                        </tr>
+                                        <tr class="couple">
+                                            <td class="align-right">Couple</td>
+                                            <td class="align-center">Good for 2</td>
+                                            <td class="align-left">P80.00</td>
+                                        </tr>
+                                        <tr class="kaibigan">
+                                            <td class="align-right">Kaibigan</td>
+                                            <td class="align-center">Good for 4</td>
+                                            <td class="align-left">P320.00</td>
+                                        </tr>
+                                        <tr class="barkada">
+                                            <td class="align-right">Barkada</td>
+                                            <td class="align-center">Good for 10</td>
+                                            <td class="align-left">P800.00</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="content">
+                                <div class="positioning">
+                                    <h4>Chicken Intestine - Isaw</h4>
+                                </div>
+                                <article>
+                                    <p><strong>Chicken intestine or isaw</strong> (in tagalog) is a <strong>street food from the Philippines</strong>, The intestines are <em>cleaned turned inside out, and cleaned again</em>, <strong>repeating the process several times</strong>; they are then <em>either boiled, then grilled, or immediately grilled on sticks</em>.</p>
+    
+                                    <p class="mobile-view">Below is the list of our <strong>available <em>chicken intestine</em></strong> that we served to our customers.</p>
+                                </article>
+                                <div class="price-table mobile-view">
+                                    <table class="flex">
+                                        <tr>
+                                            <th class="align-right">Product</th>
+                                            <th class="align-center">Quantity</th>
+                                            <th class="align-left">Price</th>
+                                        </tr>
+                                        <tr class="solo">
+                                            <td class="align-right">Solo</td>
+                                            <td class="align-center">Good for 1</td>
+                                            <td class="align-left">P50.00</td>
+                                        </tr>
+                                        <tr class="couple">
+                                            <td class="align-right">Couple</td>
+                                            <td class="align-center">Good for 2</td>
+                                            <td class="align-left">P80.00</td>
+                                        </tr>
+                                        <tr class="kaibigan">
+                                            <td class="align-right">Kaibigan</td>
+                                            <td class="align-center">Good for 4</td>
+                                            <td class="align-left">P320.00</td>
+                                        </tr>
+                                        <tr class="barkada">
+                                            <td class="align-right">Barkada</td>
+                                            <td class="align-center">Good for 10</td>
+                                            <td class="align-left">P800.00</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="positioning">
+                        <hr>
+                    </div>
+                    <div id="chicken-liver" class="menu">
+                        <div class="img-container">
+                            <div id="chicken-liver-img" class="menu-img">
+
+                            </div>
+                        </div>
+                        <div class="tablet-view disappear">
+                            <div class="content">
+                                <div class="price-table">
+                                    <table class="flex">
+                                        <tr>
+                                            <th class="align-right">Product</th>
+                                            <th class="align-center">Quantity</th>
+                                            <th class="align-left">Price</th>
+                                        </tr>
+                                        <tr class="solo">
+                                            <td class="align-right">Solo</td>
+                                            <td class="align-center">Good for 1</td>
+                                            <td class="align-left">P60.00</td>
+                                        </tr>
+                                        <tr class="couple">
+                                            <td class="align-right">Couple</td>
+                                            <td class="align-center">Good for 2</td>
+                                            <td class="align-left">P100.00</td>
+                                        </tr>
+                                        <tr class="kaibigan">
+                                            <td class="align-right">Kaibigan</td>
+                                            <td class="align-center">Good for 4</td>
+                                            <td class="align-left">P400.00</td>
+                                        </tr>
+                                        <tr class="barkada">
+                                            <td class="align-right">Barkada</td>
+                                            <td class="align-center">Good for 10</td>
+                                            <td class="align-left">P1,000.00</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="content">
+                                <div class="positioning">
+                                    <h4>Chicken Liver - Atay ng Manok</h4>
+                                </div>
+                                <article>
+                                    <p><strong>Chicken liver</strong> is the <em>largest part of the chicken</em> that <strong>can be eaten</strong> by human. By <em>mixing it with marinade recipe</em> and other <strong>Filipino cuisine techniques</strong> to make it <em>more tasty</em>, it is one of the <strong>most delicious street foods</strong> that can be <em>offered</em> by the <strong>Filipino street food</strong>. </p>
+    
+                                    <p class="mobile-view">Below is the list of our <strong>available <em>chicken liver</em></strong> that we served to our customers.</p>
+                                </article>
+                                <div class="price-table mobile-view">
+                                    <table class="flex">
+                                        <tr>
+                                            <th class="align-right">Product</th>
+                                            <th class="align-center">Quantity</th>
+                                            <th class="align-left">Price</th>
+                                        </tr>
+                                        <tr class="solo">
+                                            <td class="align-right">Solo</td>
+                                            <td class="align-center">Good for 1</td>
+                                            <td class="align-left">P60.00</td>
+                                        </tr>
+                                        <tr class="couple">
+                                            <td class="align-right">Couple</td>
+                                            <td class="align-center">Good for 2</td>
+                                            <td class="align-left">P100.00</td>
+                                        </tr>
+                                        <tr class="kaibigan">
+                                            <td class="align-right">Kaibigan</td>
+                                            <td class="align-center">Good for 4</td>
+                                            <td class="align-left">P400.00</td>
+                                        </tr>
+                                        <tr class="barkada">
+                                            <td class="align-right">Barkada</td>
+                                            <td class="align-center">Good for 10</td>
+                                            <td class="align-left">P1,000.00</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="positioning">
+                        <hr>
+                    </div>
+                    <div id="grilled-blood" class="menu">
+                        <div class="img-container">
+                            <div id="grilled-blood-img" class="menu-img">
+
+                            </div>
+                        </div>
+                        <div class="tablet-view disappear">
+                            <div class="content">
+                                <div class="price-table">
+                                    <table class="flex">
+                                        <tr>
+                                            <th class="align-right">Product</th>
+                                            <th class="align-center">Quantity</th>
+                                            <th class="align-left">Price</th>
+                                        </tr>
+                                        <tr class="solo">
+                                            <td class="align-right">Solo</td>
+                                            <td class="align-center">Good for 1</td>
+                                            <td class="align-left">P40.00</td>
+                                        </tr>
+                                        <tr class="couple">
+                                            <td class="align-right">Couple</td>
+                                            <td class="align-center">Good for 2</td>
+                                            <td class="align-left">P70.00</td>
+                                        </tr>
+                                        <tr class="kaibigan">
+                                            <td class="align-right">Kaibigan</td>
+                                            <td class="align-center">Good for 4</td>
+                                            <td class="align-left">P280.00</td>
+                                        </tr>
+                                        <tr class="barkada">
+                                            <td class="align-right">Barkada</td>
+                                            <td class="align-center">Good for 10</td>
+                                            <td class="align-left">P700.00</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="content">
+                                <div class="positioning">
+                                    <h4>Grilled Blood - Betamax</h4>
+                                </div>
+                                <article>
+                                    <p><strong>Chicken blood</strong> is <em>extracted from the kitchen</em> in liquid form. When the <strong>blood is placed in an open container and cooled down</strong> a little, the <em>texture becomes thicker</em> and somewhat <em>gelatinous</em>. The "gelatinous" is scalded to have a more <em>solid form then cut into rectangular pieces</em>.</p>
+    
+                                    <p class="mobile-view">Below is the list of our <strong>available <em>grilled blood</em></strong> that we served to our customers.</p>
+                                </article>
+                                <div class="price-table mobile-view">
+                                    <table class="flex">
+                                        <tr>
+                                            <th class="align-right">Product</th>
+                                            <th class="align-center">Quantity</th>
+                                            <th class="align-left">Price</th>
+                                        </tr>
+                                        <tr class="solo">
+                                            <td class="align-right">Solo</td>
+                                            <td class="align-center">Good for 1</td>
+                                            <td class="align-left">P40.00</td>
+                                        </tr>
+                                        <tr class="couple">
+                                            <td class="align-right">Couple</td>
+                                            <td class="align-center">Good for 2</td>
+                                            <td class="align-left">P70.00</td>
+                                        </tr>
+                                        <tr class="kaibigan">
+                                            <td class="align-right">Kaibigan</td>
+                                            <td class="align-center">Good for 4</td>
+                                            <td class="align-left">P280.00</td>
+                                        </tr>
+                                        <tr class="barkada">
+                                            <td class="align-right">Barkada</td>
+                                            <td class="align-center">Good for 10</td>
+                                            <td class="align-left">P700.00</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="positioning">
+                        <hr>
+                    </div>
+                    <div id="hotdog-barbecue" class="menu">
+                        <div class="img-container">
+                            <div id="hotdog-barbecue-img" class="menu-img">
+
+                            </div>
+                        </div>
+                        <div class="tablet-view disappear">
+                            <div class="content">
+                                <div class="price-table">
+                                    <table class="flex">
+                                        <tr>
+                                            <th class="align-right">Product</th>
+                                            <th class="align-center">Quantity</th>
+                                            <th class="align-left">Price</th>
+                                        </tr>
+                                        <tr class="solo">
+                                            <td class="align-right">Solo</td>
+                                            <td class="align-center">Good for 1</td>
+                                            <td class="align-left">P70.00</td>
+                                        </tr>
+                                        <tr class="couple">
+                                            <td class="align-right">Couple</td>
+                                            <td class="align-center">Good for 2</td>
+                                            <td class="align-left">P112.00</td>
+                                        </tr>
+                                        <tr class="kaibigan">
+                                            <td class="align-right">Kaibigan</td>
+                                            <td class="align-center">Good for 4</td>
+                                            <td class="align-left">P448.00</td>
+                                        </tr>
+                                        <tr class="barkada">
+                                            <td class="align-right">Barkada</td>
+                                            <td class="align-center">Good for 10</td>
+                                            <td class="align-left">P1,120.00</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="content">
+                                <div class="positioning">
+                                    <h4>Hotdog Barbecue</h4>
+                                </div>
+                                <article>
+                                    <p>A <strong>hotdog on stick</strong> that <strong><em>many Filipinoes</em> love</strong> to eat everyday. It <em>can be eaten with bread</em> where the <strong>hotdog is placed inside</strong> or between a sliced bread with some <em>toppings like sauce, ketchup, or other flavoured sauce</em>.</p>
+    
+                                    <p class="mobile-view">Below is the list of our <strong>available <em>hotdog barbecue</em></strong> that we served to our customers.</p>
+                                </article>
+                                <div class="price-table mobile-view">
+                                    <table class="flex">
+                                        <tr>
+                                            <th class="align-right">Product</th>
+                                            <th class="align-center">Quantity</th>
+                                            <th class="align-left">Price</th>
+                                        </tr>
+                                        <tr class="solo">
+                                            <td class="align-right">Solo</td>
+                                            <td class="align-center">Good for 1</td>
+                                            <td class="align-left">P70.00</td>
+                                        </tr>
+                                        <tr class="couple">
+                                            <td class="align-right">Couple</td>
+                                            <td class="align-center">Good for 2</td>
+                                            <td class="align-left">P112.00</td>
+                                        </tr>
+                                        <tr class="kaibigan">
+                                            <td class="align-right">Kaibigan</td>
+                                            <td class="align-center">Good for 4</td>
+                                            <td class="align-left">P448.00</td>
+                                        </tr>
+                                        <tr class="barkada">
+                                            <td class="align-right">Barkada</td>
+                                            <td class="align-center">Good for 10</td>
+                                            <td class="align-left">P1,120.00</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="positioning">
+                        <hr>
+                    </div>
+                    <div id="pork-barbecue" class="menu">
+                        <div class="img-container">
+                            <div id="pork-barbecue-img" class="menu-img">
+
+                            </div>
+                        </div>
+                        <div class="tablet-view disappear">
+                            <div class="content">
+                                <div class="price-table">
+                                    <table class="flex">
+                                        <tr>
+                                            <th class="align-right">Product</th>
+                                            <th class="align-center">Quantity</th>
+                                            <th class="align-left">Price</th>
+                                        </tr>
+                                        <tr class="solo">
+                                            <td class="align-right">Solo</td>
+                                            <td class="align-center">Good for 1</td>
+                                            <td class="align-left">P80.00</td>
+                                        </tr>
+                                        <tr class="couple">
+                                            <td class="align-right">Couple</td>
+                                            <td class="align-center">Good for 2</td>
+                                            <td class="align-left">P128.00</td>
+                                        </tr>
+                                        <tr class="kaibigan">
+                                            <td class="align-right">Kaibigan</td>
+                                            <td class="align-center">Good for 4</td>
+                                            <td class="align-left">P512.00</td>
+                                        </tr>
+                                        <tr class="barkada">
+                                            <td class="align-right">Barkada</td>
+                                            <td class="align-center">Good for 10</td>
+                                            <td class="align-left">P1,280.00</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="content">
+                                <div class="positioning">
+                                    <h4>Pork Barbecue</h4>
+                                </div>
+                                <article>
+                                    <p><strong>Pork barbecue</strong> in <em>bamboo skewers</em> is what <strong><em>Filipino Style</em> Pork BBQ</strong> is all about. It is <em>composed of thinly sliced pork pieces</em> that are marinated in <em>a special mixture of seasonings and spices</em>. In the <strong>Philippines</strong>, it is normally <em>grilled over wood charcoal and dipped in a tall jar of spicy vinegar</em> before eating.</p>
+    
+                                    <p class="mobile-view">Below is the list of our <strong>available <em>pork barbecue</em></strong> that we served to our customers.</p>
+                                </article>
+                                <div class="price-table mobile-view">
+                                    <table class="flex">
+                                        <tr>
+                                            <th class="align-right">Product</th>
+                                            <th class="align-center">Quantity</th>
+                                            <th class="align-left">Price</th>
+                                        </tr>
+                                        <tr class="solo">
+                                            <td class="align-right">Solo</td>
+                                            <td class="align-center">Good for 1</td>
+                                            <td class="align-left">P80.00</td>
+                                        </tr>
+                                        <tr class="couple">
+                                            <td class="align-right">Couple</td>
+                                            <td class="align-center">Good for 2</td>
+                                            <td class="align-left">P128.00</td>
+                                        </tr>
+                                        <tr class="kaibigan">
+                                            <td class="align-right">Kaibigan</td>
+                                            <td class="align-center">Good for 4</td>
+                                            <td class="align-left">P512.00</td>
+                                        </tr>
+                                        <tr class="barkada">
+                                            <td class="align-right">Barkada</td>
+                                            <td class="align-center">Good for 10</td>
+                                            <td class="align-left">P1,280.00</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="positioning">
+                        <hr>
+                    </div>
+                    <div id="pork-ears-barbecue" class="menu">
+                        <div class="img-container">
+                            <div id="pork-ears-barbecue-img" class="menu-img">
+
+                            </div>
+                        </div>
+                        <div class="tablet-view disappear">
+                            <div class="content">
+                                <div class="price-table">
+                                    <table class="flex">
+                                        <tr>
+                                            <th class="align-right">Product</th>
+                                            <th class="align-center">Quantity</th>
+                                            <th class="align-left">Price</th>
+                                        </tr>
+                                        <tr class="solo">
+                                            <td class="align-right">Solo</td>
+                                            <td class="align-center">Good for 1</td>
+                                            <td class="align-left">P50.00</td>
+                                        </tr>
+                                        <tr class="couple">
+                                            <td class="align-right">Couple</td>
+                                            <td class="align-center">Good for 2</td>
+                                            <td class="align-left">P80.00</td>
+                                        </tr>
+                                        <tr class="kaibigan">
+                                            <td class="align-right">Kaibigan</td>
+                                            <td class="align-center">Good for 4</td>
+                                            <td class="align-left">P320.00</td>
+                                        </tr>
+                                        <tr class="barkada">
+                                            <td class="align-right">Barkada</td>
+                                            <td class="align-center">Good for 10</td>
+                                            <td class="align-left">P800.00</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="content">
+                                <div class="positioning">
+                                    <h4>Pork Ears Barbecue - Tenga</h4>
+                                </div>
+                                <article>
+                                    <p><strong>Crispy Tenga</strong> are <strong>deep-fried crispy pig ears</strong> that were first <em>boiled until tender and then <strong>deep-fried until it turns crispy</strong></em>. It is <em>important to</em> thoroughly <em>clean the pig ears before cooking</em>.</p>
+    
+                                    <p class="mobile-view">Below is the list of our <strong>available <em>pork ear barbecue</em></strong> that we served to our customers.</p>
+                                </article>
+                                <div class="price-table mobile-view">
+                                    <table class="flex">
+                                        <tr>
+                                            <th class="align-right">Product</th>
+                                            <th class="align-center">Quantity</th>
+                                            <th class="align-left">Price</th>
+                                        </tr>
+                                        <tr class="solo">
+                                            <td class="align-right">Solo</td>
+                                            <td class="align-center">Good for 1</td>
+                                            <td class="align-left">P50.00</td>
+                                        </tr>
+                                        <tr class="couple">
+                                            <td class="align-right">Couple</td>
+                                            <td class="align-center">Good for 2</td>
+                                            <td class="align-left">P80.00</td>
+                                        </tr>
+                                        <tr class="kaibigan">
+                                            <td class="align-right">Kaibigan</td>
+                                            <td class="align-center">Good for 4</td>
+                                            <td class="align-left">P320.00</td>
+                                        </tr>
+                                        <tr class="barkada">
+                                            <td class="align-right">Barkada</td>
+                                            <td class="align-center">Good for 10</td>
+                                            <td class="align-left">P800.00</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="positioning">
+                        <hr>
+                    </div>
+                    <div id="pork-intestine-barbecue" class="menu">
+                        <div class="img-container">
+                            <div id="pork-intestine-barbecue-img" class="menu-img">
+
+                            </div>
+                        </div>
+                        <div class="tablet-view disappear">
+                            <div class="content">
+                                <div class="price-table">
+                                    <table class="flex">
+                                        <tr>
+                                            <th class="align-right">Product</th>
+                                            <th class="align-center">Quantity</th>
+                                            <th class="align-left">Price</th>
+                                        </tr>
+                                        <tr class="solo">
+                                            <td class="align-right">Solo</td>
+                                            <td class="align-center">Good for 1</td>
+                                            <td class="align-left">P50.00</td>
+                                        </tr>
+                                        <tr class="couple">
+                                            <td class="align-right">Couple</td>
+                                            <td class="align-center">Good for 2</td>
+                                            <td class="align-left">P80.00</td>
+                                        </tr>
+                                        <tr class="kaibigan">
+                                            <td class="align-right">Kaibigan</td>
+                                            <td class="align-center">Good for 4</td>
+                                            <td class="align-left">P320.00</td>
+                                        </tr>
+                                        <tr class="barkada">
+                                            <td class="align-right">Barkada</td>
+                                            <td class="align-center">Good for 10</td>
+                                            <td class="align-left">P800.00</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="content">
+                                <div class="positioning">
+                                    <h4>Pork Intestine Barbecue - Isaw ng Baboy</h4>
+                                </div>
+                                <article>
+                                    <p><strong>Pork Intestine BBQ (Inihaw na Isaw ng Baboy)</strong> is <strong>a Filipino bizarre street food</strong> made with <em>sliced large intestines</em>. These are pig's large <em>intestines</em> that <em>are cleaned</em> thoroughly <strong><em>and boiled</em> until tender and less pungent</strong>. It is then <em>rubbed with several spices and skewered in</em> a <em>bamboo skewer</em>.</p>
+    
+                                    <p class="mobile-view">Below is the list of our <strong>available <em>pork intestine barbecue</em></strong> that we served to our customers.</p>
+                                </article>
+                                <div class="price-table mobile-view">
+                                    <table class="flex">
+                                        <tr>
+                                            <th class="align-right">Product</th>
+                                            <th class="align-center">Quantity</th>
+                                            <th class="align-left">Price</th>
+                                        </tr>
+                                        <tr class="solo">
+                                            <td class="align-right">Solo</td>
+                                            <td class="align-center">Good for 1</td>
+                                            <td class="align-left">P50.00</td>
+                                        </tr>
+                                        <tr class="couple">
+                                            <td class="align-right">Couple</td>
+                                            <td class="align-center">Good for 2</td>
+                                            <td class="align-left">P80.00</td>
+                                        </tr>
+                                        <tr class="kaibigan">
+                                            <td class="align-right">Kaibigan</td>
+                                            <td class="align-center">Good for 4</td>
+                                            <td class="align-left">P320.00</td>
+                                        </tr>
+                                        <tr class="barkada">
+                                            <td class="align-right">Barkada</td>
+                                            <td class="align-center">Good for 10</td>
+                                            <td class="align-left">P800.00</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <!--
+                Chicken Barbecue
+                Chicken Feet
+                Chicken Gizzard
+                Chicken Intestine
+                Chicken Liver
+                Grilled Blood
+                Hotdog Barbecue
+                Pork Barbecue
+                Pork Ears Barbecue
+                Pork Intestine BBQ
+            -->
+            
+        </main>
+
+        <footer>
+            <div class="content">
+                <address>
+                    4 Gumamela Street, Green Rose III Subdivision, Barangay San Rafael II, Montalban(Rodriguez), Rizal 1860
+                </address>
+                <div class="quick-contacts flex">
+                    <div class="contact-number">
+                        <p>Contact Number<br>####-###-####</p>
+                    </div>
+                    <div class="social-media flex">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="JS/Toggle-button.js"></script>
+    </body>
+</html>
